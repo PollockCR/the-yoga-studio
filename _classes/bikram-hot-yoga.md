@@ -1,6 +1,6 @@
 ---
 layout: class
-title: Mandala Yoga
+title: Bikram Hot Yoga
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
 featured_image: 'https://placekitten.com/900/600'
 seo: 
