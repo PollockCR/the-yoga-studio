@@ -30,7 +30,7 @@ html {
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: Montserrat, sans-serif; /* 4 */
+  font-family: Poppins, sans-serif; /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
 }
@@ -312,7 +312,7 @@ video {
 }
 h1, h2, h3, h4 {
   margin-bottom: 0.5em;
-  font-family: Italiana, serif;
+  font-family: Oranienbaum, serif;
 }
 h1 {
   font-size: 1.875rem;
@@ -449,9 +449,6 @@ p {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.grid {
-  display: grid;
-}
 .bg-stone-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 244 / var(--tw-bg-opacity));
@@ -460,12 +457,16 @@ p {
   --tw-bg-opacity: 1;
   background-color: rgb(231 229 228 / var(--tw-bg-opacity));
 }
-.bg-yellow-400 {
+.bg-pumpkin {
   --tw-bg-opacity: 1;
-  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+  background-color: rgb(201 115 36 / var(--tw-bg-opacity));
 }
 .p-8 {
   padding: 2rem;
+}
+.text-cream {
+  --tw-text-opacity: 1;
+  color: rgb(251 242 233 / var(--tw-text-opacity));
 }
 
 

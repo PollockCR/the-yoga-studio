@@ -2,7 +2,7 @@
 layout: class
 title: Mandala Yoga
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-featured_image: 'https://placekitten.com/900/600'
+featured_image: /uploads/yoga-3.jpg
 seo: 
   title: This should appear in the browser tab
   description: 

@@ -8,10 +8,14 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['Montserrat', 'sans-serif'],
-      serif: ['Italiana', 'serif'],
+      sans: ['Poppins', 'sans-serif'],
+      serif: ['Oranienbaum', 'serif'],
     },
     extend: {
+      colors: {
+        pumpkin: "#C97324",
+        cream: "#FBF2E9",
+      },
       spacing: {
         '5p': '5%',
         '10p': '10%',
@@ -22,7 +26,7 @@ module.exports = {
         'portrait': '3 / 4',
         'portrait-tall': '3 / 5',
       },
-      minHeight:{
+      minHeight: {
         '100': '100vh',
         '90': '90vh',
         '80': '80vh',
