@@ -7,6 +7,9 @@
 /* ----------- Default Styles to apply to the whole project  --------- */
 
 @layer base {
+    body {
+        @apply text-pumpkin;
+    }
 
     h1, h2, h3, h4  {
         @apply font-serif mb-[0.5em];
