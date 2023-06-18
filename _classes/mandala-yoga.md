@@ -1,7 +1,7 @@
 ---
 layout: class
 title: Mandala Yoga
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+description: Lorem ipsum dolor sit amet, consectetur.
 featured_image: /uploads/yoga-3.jpg
 seo: 
   title: This should appear in the browser tab
