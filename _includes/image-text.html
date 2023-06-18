@@ -1,8 +1,14 @@
-<section>
-  <div>
+<section class="grid sm:grid-cols-2 sm:min-h-70">
+  <div class="px-10p py-20 self-end">
+    <!-- alternative: flex flex-col justify-end -->
     <h2>{{page.image_text.heading}}</h2>
     <p>{{page.image_text.description}}</p>
-    <a href="{{page.image_text.button_url}}">{{page.image_text.button_text}}</a>
+    <a class="button" href="{{page.image_text.button_url}}">{{page.image_text.button_text}}</a>
   </div>
-  <div style="background-image: url('https://placekitten.com/600/900')"></div>
+  <div class="bg-image min-h-50" 
+    style="
+      background-position: {{page.image_text.image_focus | default: 'center' }}; 
+      background-image: url('{{page.image_text.image}}');
+  ">
+  </div>
 </section>
