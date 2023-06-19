@@ -799,7 +799,9 @@ p {
 }
 
 /* Hide featured image */
-#momence-embed #momence-plugin-host-schedule .jDJBAl {
+#momence-embed #momence-plugin-host-schedule .jDJBAl,
+#momence-embed #momence-plugin-host-schedule .momence-host_schedule-session_list-item-image
+{
     display: none;
 }
 
